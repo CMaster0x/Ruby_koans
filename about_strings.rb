@@ -87,7 +87,7 @@ EOS
     hi = "Hello, "
     there = "World"
     hi << there
-    assert_equal "Hello,", hi
+    assert_equal "Hello, World", hi
     assert_equal "World", there
   end
 
